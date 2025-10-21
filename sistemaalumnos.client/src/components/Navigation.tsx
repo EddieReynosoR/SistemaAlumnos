@@ -2,7 +2,7 @@ import React from "react";
 import ButtonLink from "./ButtonLink";
 const Navigation: React.FC = () => {
   return (
-    <nav className="h-screen w-60 bg-gray-800 text-white p-4">
+    <nav className=" w-1/6 bg-gray-800 text-white p-4">
       <ul className="space-y-4">
         <ButtonLink to="/" text="Inicio" />
         <ButtonLink to="/Registro" text="Registro de Estudiantes" />
